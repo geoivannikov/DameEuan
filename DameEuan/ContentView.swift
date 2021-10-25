@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct OutlineButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {

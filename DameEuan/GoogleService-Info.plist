@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>635323761267-ud2ns9f3p3ru47jct1pa0o355f29asjo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.635323761267-ud2ns9f3p3ru47jct1pa0o355f29asjo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDiwpg8Ix5Jmg61j3n5MQb7JTBZnGJek0w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>635323761267</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cz.ivannikov.DameEuan</string>
+	<key>PROJECT_ID</key>
+	<string>dameeuan</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dameeuan.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:635323761267:ios:17f2dd6565aa75aafc6006</string>
+</dict>
+</plist>
