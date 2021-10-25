@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F78A3EDCC6C0BB8DC2DD210 /* libPods-DameEuanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C1AE86D5705D632EC543E4 /* libPods-DameEuanTests.a */; };
+		63736284EC79EC515247E3FB /* libPods-DameEuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC2C6079C63B0FDB945E3F1 /* libPods-DameEuan.a */; };
+		63F68057FD85E5FDBD1B2CF1 /* libPods-DameEuan-DameEuanUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 956E930F537109A83A605B0C /* libPods-DameEuan-DameEuanUITests.a */; };
+		9C128B072722055100CC3DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C128B062722055100CC3DF2 /* AppDelegate.swift */; };
+		9C128B092722055100CC3DF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C128B082722055100CC3DF2 /* SceneDelegate.swift */; };
+		9C128B0B2722055100CC3DF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C128B0A2722055100CC3DF2 /* ContentView.swift */; };
+		9C128B0D2722055300CC3DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C128B0C2722055300CC3DF2 /* Assets.xcassets */; };
+		9C128B102722055300CC3DF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C128B0F2722055300CC3DF2 /* Preview Assets.xcassets */; };
+		9C128B132722055300CC3DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C128B112722055300CC3DF2 /* LaunchScreen.storyboard */; };
+		9C128B1E2722055300CC3DF2 /* DameEuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C128B1D2722055300CC3DF2 /* DameEuanTests.swift */; };
+		9C128B292722055300CC3DF2 /* DameEuanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C128B282722055300CC3DF2 /* DameEuanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C128B1A2722055300CC3DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C128AFB2722055100CC3DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C128B022722055100CC3DF2;
+			remoteInfo = DameEuan;
+		};
+		9C128B252722055300CC3DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C128AFB2722055100CC3DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C128B022722055100CC3DF2;
+			remoteInfo = DameEuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C1AE86D5705D632EC543E4 /* libPods-DameEuanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DameEuanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC2C6079C63B0FDB945E3F1 /* libPods-DameEuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DameEuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D715F6B8AE24D4686A7AC80 /* Pods-DameEuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuan.release.xcconfig"; path = "Target Support Files/Pods-DameEuan/Pods-DameEuan.release.xcconfig"; sourceTree = "<group>"; };
+		78FD9981EE5BFF068D9F86AB /* Pods-DameEuanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuanTests.release.xcconfig"; path = "Target Support Files/Pods-DameEuanTests/Pods-DameEuanTests.release.xcconfig"; sourceTree = "<group>"; };
+		956E930F537109A83A605B0C /* libPods-DameEuan-DameEuanUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DameEuan-DameEuanUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C128B032722055100CC3DF2 /* DameEuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DameEuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C128B062722055100CC3DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C128B082722055100CC3DF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C128B0A2722055100CC3DF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C128B0C2722055300CC3DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C128B0F2722055300CC3DF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C128B122722055300CC3DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C128B142722055300CC3DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C128B192722055300CC3DF2 /* DameEuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DameEuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C128B1D2722055300CC3DF2 /* DameEuanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DameEuanTests.swift; sourceTree = "<group>"; };
+		9C128B1F2722055300CC3DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C128B242722055300CC3DF2 /* DameEuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DameEuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C128B282722055300CC3DF2 /* DameEuanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DameEuanUITests.swift; sourceTree = "<group>"; };
+		9C128B2A2722055300CC3DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51B0A1618CCC614AF3CEBC6 /* Pods-DameEuan-DameEuanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuan-DameEuanUITests.debug.xcconfig"; path = "Target Support Files/Pods-DameEuan-DameEuanUITests/Pods-DameEuan-DameEuanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7AB54ADB81EBAD056AAFC5 /* Pods-DameEuan-DameEuanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuan-DameEuanUITests.release.xcconfig"; path = "Target Support Files/Pods-DameEuan-DameEuanUITests/Pods-DameEuan-DameEuanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA2AD6E6E1F3DCBC7007FA24 /* Pods-DameEuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuan.debug.xcconfig"; path = "Target Support Files/Pods-DameEuan/Pods-DameEuan.debug.xcconfig"; sourceTree = "<group>"; };
+		EFEA682717AF306D075050C1 /* Pods-DameEuanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DameEuanTests.debug.xcconfig"; path = "Target Support Files/Pods-DameEuanTests/Pods-DameEuanTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C128B002722055100CC3DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63736284EC79EC515247E3FB /* libPods-DameEuan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B162722055300CC3DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F78A3EDCC6C0BB8DC2DD210 /* libPods-DameEuanTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B212722055300CC3DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F68057FD85E5FDBD1B2CF1 /* libPods-DameEuan-DameEuanUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFD145C578D1867753A731A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC2C6079C63B0FDB945E3F1 /* libPods-DameEuan.a */,
+				956E930F537109A83A605B0C /* libPods-DameEuan-DameEuanUITests.a */,
+				03C1AE86D5705D632EC543E4 /* libPods-DameEuanTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F0F7A1A45705985CFE323FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA2AD6E6E1F3DCBC7007FA24 /* Pods-DameEuan.debug.xcconfig */,
+				4D715F6B8AE24D4686A7AC80 /* Pods-DameEuan.release.xcconfig */,
+				B51B0A1618CCC614AF3CEBC6 /* Pods-DameEuan-DameEuanUITests.debug.xcconfig */,
+				BA7AB54ADB81EBAD056AAFC5 /* Pods-DameEuan-DameEuanUITests.release.xcconfig */,
+				EFEA682717AF306D075050C1 /* Pods-DameEuanTests.debug.xcconfig */,
+				78FD9981EE5BFF068D9F86AB /* Pods-DameEuanTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C128AFA2722055100CC3DF2 = {
+			isa = PBXGroup;
+			children = (
+				9C128B052722055100CC3DF2 /* DameEuan */,
+				9C128B1C2722055300CC3DF2 /* DameEuanTests */,
+				9C128B272722055300CC3DF2 /* DameEuanUITests */,
+				9C128B042722055100CC3DF2 /* Products */,
+				5F0F7A1A45705985CFE323FC /* Pods */,
+				4FFD145C578D1867753A731A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C128B042722055100CC3DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C128B032722055100CC3DF2 /* DameEuan.app */,
+				9C128B192722055300CC3DF2 /* DameEuanTests.xctest */,
+				9C128B242722055300CC3DF2 /* DameEuanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C128B052722055100CC3DF2 /* DameEuan */ = {
+			isa = PBXGroup;
+			children = (
+				9C128B062722055100CC3DF2 /* AppDelegate.swift */,
+				9C128B082722055100CC3DF2 /* SceneDelegate.swift */,
+				9C128B0A2722055100CC3DF2 /* ContentView.swift */,
+				9C128B0C2722055300CC3DF2 /* Assets.xcassets */,
+				9C128B112722055300CC3DF2 /* LaunchScreen.storyboard */,
+				9C128B142722055300CC3DF2 /* Info.plist */,
+				9C128B0E2722055300CC3DF2 /* Preview Content */,
+			);
+			path = DameEuan;
+			sourceTree = "<group>";
+		};
+		9C128B0E2722055300CC3DF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C128B0F2722055300CC3DF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C128B1C2722055300CC3DF2 /* DameEuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C128B1D2722055300CC3DF2 /* DameEuanTests.swift */,
+				9C128B1F2722055300CC3DF2 /* Info.plist */,
+			);
+			path = DameEuanTests;
+			sourceTree = "<group>";
+		};
+		9C128B272722055300CC3DF2 /* DameEuanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C128B282722055300CC3DF2 /* DameEuanUITests.swift */,
+				9C128B2A2722055300CC3DF2 /* Info.plist */,
+			);
+			path = DameEuanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C128B022722055100CC3DF2 /* DameEuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C128B2D2722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuan" */;
+			buildPhases = (
+				32BE873F72271233D2843083 /* [CP] Check Pods Manifest.lock */,
+				9C128AFF2722055100CC3DF2 /* Sources */,
+				9C128B002722055100CC3DF2 /* Frameworks */,
+				9C128B012722055100CC3DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DameEuan;
+			productName = DameEuan;
+			productReference = 9C128B032722055100CC3DF2 /* DameEuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C128B182722055300CC3DF2 /* DameEuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C128B302722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuanTests" */;
+			buildPhases = (
+				549AC880D5CA5EEA481A5B66 /* [CP] Check Pods Manifest.lock */,
+				9C128B152722055300CC3DF2 /* Sources */,
+				9C128B162722055300CC3DF2 /* Frameworks */,
+				9C128B172722055300CC3DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C128B1B2722055300CC3DF2 /* PBXTargetDependency */,
+			);
+			name = DameEuanTests;
+			productName = DameEuanTests;
+			productReference = 9C128B192722055300CC3DF2 /* DameEuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C128B232722055300CC3DF2 /* DameEuanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C128B332722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuanUITests" */;
+			buildPhases = (
+				CC8958ACE99251FFE6F839F7 /* [CP] Check Pods Manifest.lock */,
+				9C128B202722055300CC3DF2 /* Sources */,
+				9C128B212722055300CC3DF2 /* Frameworks */,
+				9C128B222722055300CC3DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C128B262722055300CC3DF2 /* PBXTargetDependency */,
+			);
+			name = DameEuanUITests;
+			productName = DameEuanUITests;
+			productReference = 9C128B242722055300CC3DF2 /* DameEuanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C128AFB2722055100CC3DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9C128B022722055100CC3DF2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9C128B182722055300CC3DF2 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9C128B022722055100CC3DF2;
+					};
+					9C128B232722055300CC3DF2 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9C128B022722055100CC3DF2;
+					};
+				};
+			};
+			buildConfigurationList = 9C128AFE2722055100CC3DF2 /* Build configuration list for PBXProject "DameEuan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C128AFA2722055100CC3DF2;
+			productRefGroup = 9C128B042722055100CC3DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C128B022722055100CC3DF2 /* DameEuan */,
+				9C128B182722055300CC3DF2 /* DameEuanTests */,
+				9C128B232722055300CC3DF2 /* DameEuanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C128B012722055100CC3DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C128B132722055300CC3DF2 /* LaunchScreen.storyboard in Resources */,
+				9C128B102722055300CC3DF2 /* Preview Assets.xcassets in Resources */,
+				9C128B0D2722055300CC3DF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B172722055300CC3DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B222722055300CC3DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32BE873F72271233D2843083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DameEuan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549AC880D5CA5EEA481A5B66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DameEuanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8958ACE99251FFE6F839F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DameEuan-DameEuanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C128AFF2722055100CC3DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C128B072722055100CC3DF2 /* AppDelegate.swift in Sources */,
+				9C128B092722055100CC3DF2 /* SceneDelegate.swift in Sources */,
+				9C128B0B2722055100CC3DF2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B152722055300CC3DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C128B1E2722055300CC3DF2 /* DameEuanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C128B202722055300CC3DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C128B292722055300CC3DF2 /* DameEuanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C128B1B2722055300CC3DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C128B022722055100CC3DF2 /* DameEuan */;
+			targetProxy = 9C128B1A2722055300CC3DF2 /* PBXContainerItemProxy */;
+		};
+		9C128B262722055300CC3DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C128B022722055100CC3DF2 /* DameEuan */;
+			targetProxy = 9C128B252722055300CC3DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C128B112722055300CC3DF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C128B122722055300CC3DF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C128B2B2722055300CC3DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C128B2C2722055300CC3DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C128B2E2722055300CC3DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2AD6E6E1F3DCBC7007FA24 /* Pods-DameEuan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DameEuan/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DameEuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C128B2F2722055300CC3DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D715F6B8AE24D4686A7AC80 /* Pods-DameEuan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DameEuan/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DameEuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C128B312722055300CC3DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEA682717AF306D075050C1 /* Pods-DameEuanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				INFOPLIST_FILE = DameEuanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DameEuan.app/DameEuan";
+			};
+			name = Debug;
+		};
+		9C128B322722055300CC3DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FD9981EE5BFF068D9F86AB /* Pods-DameEuanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				INFOPLIST_FILE = DameEuanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DameEuan.app/DameEuan";
+			};
+			name = Release;
+		};
+		9C128B342722055300CC3DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51B0A1618CCC614AF3CEBC6 /* Pods-DameEuan-DameEuanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				INFOPLIST_FILE = DameEuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DameEuan;
+			};
+			name = Debug;
+		};
+		9C128B352722055300CC3DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7AB54ADB81EBAD056AAFC5 /* Pods-DameEuan-DameEuanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JH59DJ45H;
+				INFOPLIST_FILE = DameEuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ivannikov.DameEuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DameEuan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C128AFE2722055100CC3DF2 /* Build configuration list for PBXProject "DameEuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C128B2B2722055300CC3DF2 /* Debug */,
+				9C128B2C2722055300CC3DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C128B2D2722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C128B2E2722055300CC3DF2 /* Debug */,
+				9C128B2F2722055300CC3DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C128B302722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C128B312722055300CC3DF2 /* Debug */,
+				9C128B322722055300CC3DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C128B332722055300CC3DF2 /* Build configuration list for PBXNativeTarget "DameEuanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C128B342722055300CC3DF2 /* Debug */,
+				9C128B352722055300CC3DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C128AFB2722055100CC3DF2 /* Project object */;
+}
