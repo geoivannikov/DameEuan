@@ -65,7 +65,7 @@ struct ContentView: View {
                     .padding(5)
                     HStack {
                         VStack (alignment: .leading, spacing: 5) {
-                            Text("Amount: 2")
+                            Text("Amount: 3")
                             Text("Date: 21.10.21")
                             HStack {
                                 Text("State: ")
@@ -81,7 +81,7 @@ struct ContentView: View {
                     .padding(5)
                     HStack {
                         VStack (alignment: .leading, spacing: 5) {
-                            Text("Amount: 2")
+                            Text("Amount: 1")
                             Text("Date: 21.10.21")
                             HStack {
                                 Text("State: ")
@@ -98,7 +98,7 @@ struct ContentView: View {
                 }
             }
             .listStyle(InsetGroupedListStyle())
-            .navigationTitle("DameEuan")
+            .navigationTitle("DameEuan 🍺")
         }
     }
 }
